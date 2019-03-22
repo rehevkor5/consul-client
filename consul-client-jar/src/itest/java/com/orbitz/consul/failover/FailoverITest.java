@@ -17,7 +17,7 @@ import junitparams.JUnitParamsRunner;
 import junitparams.naming.TestCaseName;
 
 @RunWith(JUnitParamsRunner.class)
-public class FailoverTest {
+public class FailoverITest {
 
 	
 	@Test

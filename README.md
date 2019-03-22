@@ -1,6 +1,25 @@
 [![Build Status](https://travis-ci.org/rickfast/consul-client.svg?branch=master)](https://travis-ci.org/rickfast/consul-client)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.orbitz.consul/consul-client/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.orbitz.consul/consul-client)
 
+
+
+
+
+
+
+SC: todo: attached artifact can't use separate reduced-dependency POM! Split out the shaded artifact into a separate
+module so that it can produce a proper POM. Otherwise, people using it need to add a wildcard exclude for all
+transitive dependencies!
+
+
+
+
+
+
+
+
+
+
 Consul Client for Java
 ======================
 
